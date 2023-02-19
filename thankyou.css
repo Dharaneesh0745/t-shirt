@@ -39,6 +39,7 @@
     letter-spacing:1px;
   }
   .go-home{
+    cursor: pointer;
     color:#fff;
     background:orange;
     border:none;
