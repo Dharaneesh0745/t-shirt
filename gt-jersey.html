@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>T-Shirt Order Form</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+  <h1>GT Jersey</h1>
+<table>
+  <tr>
+    <td class="image">
+  <img src="fet images/gt.jfif" style="height:80%; width:80%; margin-left: 200px;" alt="">
+    </td><td>
+  <form id="order-form" style="margin-right: 200px;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Ex : Dharaneesh">
+
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" required placeholder="Ex : 18">
+
+    <label for="mail">Your Mail-Id:</label>
+    <input type="email" required value="@gmail.com">
+
+    <label for="delivery">Order delivery week:</label>
+    <input type="week" required>
+    
+    <label for="size">Size:</label>
+    <select id="size" name="size" required>
+      <option value="">--Please select size--</option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+      <option value="xlarge">X-Large</option>
+    </select>
+    
+    <a href="thankyou.html" class="btn">Order</a>
+
+  </form></td>
+  </tr></table>
+  
+  <script src="script.js"></script>
+</body>
+</html>
